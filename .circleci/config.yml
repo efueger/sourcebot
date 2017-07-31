@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     environment:
-      CC_TEST_REPORTER_ID: e3d75ff107da64b21112668c156648bb46095c70ea6660964a402c766c92225c
+      CC_TEST_REPORTER_ID: 5407bd54beb9003401c5d96d50796111cf2cf2a22442970977c99a683dd3ab37
     docker:
       - image: notnoopci/php:7.1.5-browsers
     working_directory: ~/repo
